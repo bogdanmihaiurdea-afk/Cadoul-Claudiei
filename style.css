@@ -37,6 +37,10 @@ header, #rezultat{
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border: 5px solid lightgray;
     background-color: #FFCCFF;
+    overflow: hidden; /* Taie orice pixel care ar putea ieși din bordura rotundă */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .indicator{
@@ -70,5 +74,40 @@ header, #rezultat{
     transform: scale(1.05);
     transition: 0.3s;
     color:aliceblue;
-    
+
+}
+#rezultat{
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    border: 2px solid aliceblue;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#nume-destinatie h3 {
+    color: #D87093; /* Un roz mai închis pentru contrast */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#link-rezervare {
+    display: none; /* Îl ascundem până când se oprește roata */
+    background-color: white;
+    color: #D87093;
+    padding: 10px 20px;
+    border: 2px solid #FFB6C1; /* Soft Pink */
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#link-rezervare:hover {
+    background-color: #FFB6C1; /* Soft Pink la hover */
+    color: white;
 }
