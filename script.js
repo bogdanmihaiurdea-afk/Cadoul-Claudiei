@@ -14,7 +14,7 @@ const feliute = numePropriu.split('');
 const bazaDateDestinatii = {
     "U": ["Uruguay", "Uganda", "Uzbekistan", "Ulaanbaatar", "Ungaria"],
     "R": ["Rio de Janeiro", "Ronda", "Rwanda", "Reunion", "Roma"],
-    "D": ["Danemarca", "Djibouti", "Dominica", "Republica Dominicana", "Delhi"],
+    "D": ["Danemarca", "Doha", "Dominica", "Republica Dominicana", "Delhi"],
     "E": ["Estonia", "Etiopia", "Ecuador", "Egipt", "Elvetia"],
     "A": ["Austria", "Albania", "Algeria", "Andorra", "Armenia"],
     "C": ["Cehia", "China", "Columbia", "Canada", "Chile"],
