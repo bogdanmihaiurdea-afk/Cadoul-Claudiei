@@ -19,8 +19,8 @@ header, #rezultat{
     min-height: 400px;
     position: relative;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-bottom: 40px;
     padding-top: 40px;
     display: flex;
@@ -47,7 +47,7 @@ header, #rezultat{
     position: absolute;
     transform: translateX(-50%);
     z-index: 10;
-    top: 35px;;
+    top: 35px;
     left: 50%;
     width: 0px;
     height: 0px;
